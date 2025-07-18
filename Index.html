@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruff Rescue Walker County AL - Dog Rescue & Adoption</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23e0f2fe" width="1200" height="600"/><circle fill="%23b3e5fc" cx="200" cy="150" r="80"/><circle fill="%2381d4fa" cx="800" cy="300" r="120"/><circle fill="%234fc3f7" cx="1000" cy="100" r="60"/></svg>');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
+                        <span class="text-white font-bold text-xl">🐕</span>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-gray-800">Ruff Rescue</h1>
+                        <p class="text-sm text-gray-600">Walker County, AL</p>
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#home" class="text-gray-700 hover:text-blue-600 font-medium">Home</a>
+                    <a href="#adopt" class="text-gray-700 hover:text-blue-600 font-medium">Adopt</a>
+                    <a href="#volunteer" class="text-gray-700 hover:text-blue-600 font-medium">Volunteer</a>
+                    <a href="#donate" class="text-gray-700 hover:text-blue-600 font-medium">Donate</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600 font-medium">Contact</a>
+                </div>
+                <button class="md:hidden text-gray-700" onclick="toggleMenu()">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden pb-4">
+                <a href="#home" class="block py-2 text-gray-700 hover:text-blue-600">Home</a>
+                <a href="#adopt" class="block py-2 text-gray-700 hover:text-blue-600">Adopt</a>
+                <a href="#volunteer" class="block py-2 text-gray-700 hover:text-blue-600">Volunteer</a>
+                <a href="#donate" class="block py-2 text-gray-700 hover:text-blue-600">Donate</a>
+                <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+<!-- Hero Section -->
+<section id="home" class="hero-bg text-white py-20">
+    <div class="container mx-auto px-4 text-center">
+        <h1 class="text-5xl font-bold mb-6">Saving Lives, One Paw at a Time</h1>
+        <p class="text-xl mb-8 max-w-2xl mx-auto">Ruff Rescue Walker County AL is dedicated to rescuing, rehabilitating, and rehoming dogs in need throughout Walker County, Alabama.</p>
+        <div class="space-x-4">
+            <a href="#adopt" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition duration-200 inline-block">Adopt Now</a>
+            <a href="#donate" class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition duration-200 inline-block">Donate</a>
+        </div>
+    </div>
+</section>
+
+<!-- Mission Section -->
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Our Mission</h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">We are committed to providing a safe haven for abandoned, abused, and neglected dogs while working tirelessly to find them loving forever homes.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="text-center p-6">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-3xl">🏠</span>
+                </div>
+                <h3 class="text-xl font-semibold mb-3">Rescue</h3>
+                <p class="text-gray-600">We rescue dogs from high-kill shelters, abusive situations, and the streets.</p>
+            </div>
+            <div class="text-center p-6">
+                <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-3xl">❤️</span>
+                </div>
+                <h3 class="text-xl font-semibold mb-3">Rehabilitate</h3>
+                <p class="text-gray-600">We provide medical care, training, and love to help dogs heal and thrive.</p>
+            </div>
+            <div class="text-center p-6">
+                <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-3xl">🏡</span>
+                </div>
+                <h3 class="text-xl font-semibold mb-3">Rehome</h3>
+                <p class="text-gray-600">We carefully match dogs with loving families for their forever homes.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Available Dogs Section -->
+<section id="adopt" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Dogs Available for Adoption</h2>
+            <p class="text-lg text-gray-600">Meet some of our wonderful dogs looking for their forever homes!</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Dog Card 1 -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="h-64 bg-gradient-to-br from-yellow-200 to-orange-300 flex items-center justify-center">
+                    <span class="text-6xl">🐕</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Buddy</h3>
+                    <p class="text-gray-600 mb-3">Golden Retriever Mix • 3 years old</p>
+                    <p class="text-sm text-gray-700 mb-4">Friendly, energetic, and great with kids. Buddy loves to play fetch and go on long walks.</p>
+                    <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition duration-200">Learn More</button>
+                </div>
+            </div>
+            <!-- Dog Card 2 -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="h-64 bg-gradient-to-br from-pink-200 to-purple-300 flex items-center justify-center">
+                    <span class="text-6xl">🐕‍🦺</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Luna</h3>
+                    <p class="text-gray-600 mb-3">German Shepherd Mix • 2 years old</p>
+                    <p class="text-sm text-gray-700 mb-4">Loyal, intelligent, and protective. Luna is looking for an active family who can give her lots of exercise.</p>
+                    <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition duration-200">Learn More</button>
+                </div>
+            </div>
+            <!-- Dog Card 3 -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="h-64 bg-gradient-to-br from-green-200 to-blue-300 flex items-center justify-center">
+                    <span class="text-6xl">🐶</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Max</h3>
+                    <p class="text-gray-600 mb-3">Labrador Mix • 5 years old</p>
+                    <p class="text-sm text-gray-700 mb-4">Calm, gentle, and perfect for seniors. Max enjoys quiet walks and lots of cuddles.</p>
+                    <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition duration-200">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-8">
+            <a href="#contact" class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition duration-200 inline-block">View All Available Dogs</a>
+        </div>
+    </div>
+</section>
+
+<!-- How to Help Section -->
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">How You Can Help</h2>
+            <p class="text-lg text-gray-600">There are many ways to support our mission and help dogs in need.</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="text-center p-6 border border-gray-200 rounded-lg">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-3xl">🏠</span>
+                </div>
+                <h3 class="text-lg font-semibold mb-3">Adopt</h3>
+                <p class="text-gray-600 text-sm">Give a rescue dog a loving forever home.</p>
+            </div>
+            <div class="text-center p-6 border border-gray-200 rounded-lg">
+                <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-3xl">🤝</span>
+                </div>
+                <h3 class="text-lg font-semibold mb-3">Foster</h3>
+                <p class="text-gray-600 text-sm">Provide temporary care while dogs await adoption.</p>
+            </div>
+            <div class="text-center p-6 border border-gray-200 rounded-lg">
+                <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-3xl">🙋</span>
+                </div>
+                <h3 class="text-lg font-semibold mb-3">Volunteer</h3>
+                <p class="text-gray-600 text-sm">Help with events, transport, and daily care.</p>
+            </div>
+            <div class="text-center p-6 border border-gray-200 rounded-lg">
+                <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-3xl">💝</span>
+                </div>
+                <h3 class="text-lg font-semibold mb-3">Donate</h3>
+                <p class="text-gray-600 text-sm">Support medical care, food, and shelter costs.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Volunteer Section -->
+<section id="volunteer" class="py-16 bg-blue-50">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-gray-800 mb-6">Volunteer With Us</h2>
+            <p class="text-lg text-gray-600 mb-8">Join our amazing team of volunteers and make a direct impact on the lives of rescue dogs.</p>
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-3">Volunteer Opportunities</h3>
+                    <ul class="text-left space-y-2 text-gray-600">
+                        <li>• Dog walking and exercise</li>
+                        <li>• Feeding and basic care</li>
+                        <li>• Transportation to vet visits</li>
+                        <li>• Event planning and fundraising</li>
+                        <li>• Social media and marketing</li>
+                        <li>• Administrative support</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-3">Requirements</h3>
+                    <ul class="text-left space-y-2 text-gray-600">
+                        <li>• Must be 16+ years old</li>
+                        <li>• Complete volunteer application</li>
+                        <li>• Attend orientation session</li>
+                        <li>• Commit to regular schedule</li>
+                        <li>• Pass background check</li>
+                        <li>• Love for animals required!</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition duration-200 inline-block">Apply to Volunteer</a>
+        </div>
+    </div>
+</section>
+
+<!-- Donation Section -->
+<section id="donate" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-gray-800 mb-6">Support Our Mission</h2>
+            <p class="text-lg text-gray-600 mb-8">Your donations help us provide medical care, food, shelter, and love to dogs in need.</p>
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold text-green-600 mb-2">$25</h3>
+                    <p class="text-gray-600">Provides food for one dog for a week</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold text-green-600 mb-2">$75</h3>
+                    <p class="text-gray-600">Covers basic veterinary checkup</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold text-green-600 mb-2">$150</h3>
+                    <p class="text-gray-600">Funds spay/neuter surgery</p>
+                </div>
+            </div>
+            <div class="space-x-4">
+                <button class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition duration-200">Donate Now</button>
+                <button class="bg-gray-600 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition duration-200">Monthly Giving</button>
+            </div>
+            <p class="text-sm text-gray-500 mt-4">Ruff Rescue Walker County AL is a 501(c)(3) nonprofit organization. All donations are tax-deductible.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-16 bg-gray-800 text-white">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-4">Get In Touch</h2>
+                <p class="text-lg text-gray-300">Ready to adopt, volunteer, or have questions? We'd love to hear from you!</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <span class="text-blue-400 mr-3">📧</span>
+                            <span>info@ruffrescuewalkercountyal.org</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-blue-400 mr-3">📱</span>
+                            <span>(205) 555-RUFF</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-blue-400 mr-3">📍</span>
+                            <span>Walker County, Alabama</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-blue-400 mr-3">🕒</span>
+                            <span>Mon-Sat: 9AM-6PM, Sun: 12PM-4PM</span>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <h4 class="font-semibold mb-3">Follow Us</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-blue-400 hover:text-blue-300">Facebook</a>
+                            <a href="#" class="text-blue-400 hover:text-blue-300">Instagram</a>
+                            <a href="#" class="text-blue-400 hover:text-blue-300">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Send Us a Message</h3>
+                    <form class="space-y-4">
+                        <input type="text" placeholder="Your Name" class="w-full p-3 rounded-lg bg-gray-700 text-white placeholder-gray-400 border border-gray-600 focus:border-blue-500 focus:outline-none">
+                        <input type="email" placeholder="Your Email" class="w-full p-3 rounded-lg bg-gray-700 text-white placeholder-gray-400 border border-gray-600 focus:border-blue-500 focus:outline-none">
+                        <select class="w-full p-3 rounded-lg bg-gray-700 text-white border border-gray-600 focus:border-blue-500 focus:outline-none">
+                            <option>I'm interested in...</option>
+                            <option>Adopting a dog</option>
+                            <option>Volunteering</option>
+                            <option>Fostering</option>
+                            <option>Making a donation</option>
+                            <option>Other</option>
+                        </select>
+                        <textarea placeholder="Your Message" rows="4" class="w-full p-3 rounded-lg bg-gray-700 text-white placeholder-gray-400 border border-gray-600 focus:border-blue-500 focus:outline-none"></textarea>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition duration-200">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-400 py-8">
+    <div class="container mx-auto px-4 text-center">
+        <div class="flex items-center justify-center space-x-3 mb-4">
+            <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                <span class="text-white text-sm">🐕</span>
+            </div>
+            <span class="font-semibold">Ruff Rescue Walker County AL</span>
+        </div>
+        <p class="mb-4">Saving lives, one paw at a time.</p>
+        <p class="text-sm">&copy; 2024 Ruff Rescue Walker County AL. All rights reserved. | 501(c)(3) Nonprofit Organization</p>
+    </div>
+</footer>
+
+<script>
+    function toggleMenu() {
+        const menu = document.getElementById('mobileMenu');
+        menu.classList.toggle('hidden');
+    }
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    // Close mobile menu when clicking on a link
+    document.querySelectorAll('#mobileMenu a').forEach(link => {
+        link.addEventListener('click', () => {
+            document.getElementById('mobileMenu').classList.add('hidden');
+        });
+    });
+</script>
+<body>
+<html>
+</body>
